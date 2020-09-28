@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+} 
+
+.name::after{
+    content : ". . .";
+    display: flex;
+    flex-direction:column ;
+}
+
+.temp::before{
+    content: "temperature : ";
+}
+.humidity::before{
+    content: "Humidity : ";
+}
+.temperatueRange::before{
+    content: "Temperature Range : ";
+}
